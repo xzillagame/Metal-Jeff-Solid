@@ -1,0 +1,54 @@
+{
+    "name": "SneakingPlayerInput",
+    "maps": [
+        {
+            "name": "SneakInput",
+            "id": "75ae4ac9-924b-419d-8648-a82f7828e8b5",
+            "actions": [
+                {
+                    "name": "PointInput",
+                    "type": "Button",
+                    "id": "8176b243-14ed-4f35-bed5-a1bbc42e5e2a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Sneak",
+                    "type": "Button",
+                    "id": "3c31f446-e17f-4327-9276-b0c8b0abba3c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "781c0311-eb8d-49c0-95c6-97484697f82e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "75e3a82c-db06-4b0e-bf84-101eb058f04a",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sneak",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
